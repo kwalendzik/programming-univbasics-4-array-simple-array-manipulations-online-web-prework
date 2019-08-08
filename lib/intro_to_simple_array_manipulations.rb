@@ -50,10 +50,10 @@ def using_flatten(array)
   flat_array = instruments.flatten
 end
 
-def using_delete(instructors,no_offense_steven)
+def using_delete(array,string)
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  no_offense_steven = "Steven"
-  instructors.delete(no_offense_steven)
+  not_to_include = "Steven"
+  no_offense_steven = instructors.delete(not_to_include)
 end
 
 def using_delete_at(array,integer)
