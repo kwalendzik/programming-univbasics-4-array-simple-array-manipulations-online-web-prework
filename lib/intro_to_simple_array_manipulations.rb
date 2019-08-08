@@ -37,7 +37,7 @@ end
 def using_insert(array,element)
   list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
   another_language = "Python"
-  new_array = list_of_programming_languages.insert(3, another_language)
+  new_array = list_of_programming_languages.insert(4, another_language)
   end
   
 def using_uniq(haircuts)
