@@ -52,8 +52,7 @@ end
 
 def using_delete(array,string)
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  not_to_include = "Steven"
-  no_offense_steven = instructors.delete(not_to_include)
+  no_offense_steven = instructors.delete("Steven")
 end
 
 def using_delete_at(array,integer)
