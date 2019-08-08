@@ -9,7 +9,6 @@ def using_unshift(array,string)
   updated_array = bouroughs_in_nyc.unshift(new_neighborhood)
 end
 def using_pop(array)
-  continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
   deleted_string = continents.pop
 end
 
